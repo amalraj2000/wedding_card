@@ -1,28 +1,35 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Bride from './pages/Bride';
-import Groom from './pages/Groom';
-import Muhoortham from './pages/Muhoortham';
-import Gallery from './pages/Gallery';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
+import CoverPage from './pages/CoverPage';
+import WeddingDetails from './pages/WeddingDetails';
+import GroomPage from './pages/GroomPage';
+import BridePage from './pages/BridePage';
+import WelcomePage from './pages/WelcomePage';
+import GalleryPage from './pages/GalleryPage';
 import './App.css';
+
+const AnimatedRoutes = () => {
+  const location = useLocation();
+
+  return (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<CoverPage />} />
+        <Route path="/details" element={<WeddingDetails />} />
+        <Route path="/groom" element={<GroomPage />} />
+        <Route path="/bride" element={<BridePage />} />
+        <Route path="/welcome" element={<WelcomePage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
+      </Routes>
+    </AnimatePresence>
+  );
+};
 
 function App() {
   return (
     <Router>
       <div className="app">
-        <Navigation />
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/bride" element={<Bride />} />
-            <Route path="/groom" element={<Groom />} />
-            <Route path="/muhoortham" element={<Muhoortham />} />
-            <Route path="/gallery" element={<Gallery />} />
-          </Routes>
-        </main>
-        <Footer />
+        <AnimatedRoutes />
       </div>
     </Router>
   );
