@@ -33,7 +33,7 @@ const WelcomePage = () => {
                     </div>
 
                     <div style={{ marginBottom: '2rem' }}>
-                        <button className="btn-premium" onClick={() => navigate('/gallery')}>
+                        <button className="btn-premium" onClick={() => document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' })}>
                             View Gallery
                         </button>
                     </div>

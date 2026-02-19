@@ -2,25 +2,14 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const GroomPage = () => {
-    const navigate = useNavigate();
-
-    const handleSwipe = (event, info) => {
-        if (info.offset.x < -100) {
-            navigate('/bride');
-        }
-    };
-
     return (
         <motion.div
             className="page groom-page"
-            drag="x"
-            dragConstraints={{ left: 0, right: 0 }}
-            onDragEnd={handleSwipe}
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            style={{ overflowY: 'auto', display: 'block' }}
+            style={{ overflowY: 'visible', display: 'block' }}
         >
             <div className="overlay" style={{ padding: '60px 20px' }}>
                 <motion.div
@@ -54,7 +43,10 @@ const GroomPage = () => {
                         </div>
                     </div>
 
-                    <p style={{ marginTop: '4rem', fontSize: '0.7rem', opacity: 0.5 }}>Swipe left for the Bride</p>
+                    <div style={{ marginTop: '2rem', borderTop: '1px solid rgba(197,160,89,0.1)', paddingTop: '2rem' }}>
+                        <p style={{ color: 'var(--gold-static)', fontSize: '0.8rem', letterSpacing: '2px' }}>Reception</p>
+                        <p style={{ color: '#fff', fontSize: '0.9rem' }}>August 24th, 2026 | 04:00 PM</p>
+                    </div>
                 </motion.div>
             </div>
         </motion.div>

@@ -58,7 +58,7 @@ const GalleryPage = () => {
                 </div>
 
                 <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-                    <button className="btn-premium" onClick={() => navigate('/welcome')}>
+                    <button className="btn-premium" onClick={() => document.getElementById('welcome').scrollIntoView({ behavior: 'smooth' })}>
                         Back to Welcome
                     </button>
                 </div>
