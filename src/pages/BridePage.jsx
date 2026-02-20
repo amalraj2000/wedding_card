@@ -26,7 +26,10 @@ const BridePage = () => {
                     </div>
 
                     <div style={{ margin: '2rem 0' }}>
-                        <h3 style={{ color: 'var(--gold-static)', fontFamily: 'var(--serif-font)', marginBottom: '1rem' }}>D/o Mr. & Mrs. Anthrayose</h3>
+                        <h3 style={{ color: 'var(--gold-static)', fontFamily: 'var(--serif-font)', marginBottom: '0.5rem' }}>D/o Sabu K.A & Priya Sabu</h3>
+                        <p style={{ color: 'rgba(197,160,89,0.8)', fontSize: '0.8rem', marginBottom: '1.5rem', fontFamily: 'var(--serif-font)' }}>
+                            Kuzhimalayil (H), Nadakavu, Ernakulam
+                        </p>
                         <p style={{ color: '#fff', fontSize: '1rem', textTransform: 'none', letterSpacing: '1px', lineHeight: '1.6' }}>
                             A creative soul who finds inspiration in the beauty of nature and art. Anisha's grace and kindness light up every room, and she is eager to start this new chapter of love and companionship.
                         </p>
@@ -45,7 +48,7 @@ const BridePage = () => {
 
                     <div style={{ marginTop: '2rem', borderTop: '1px solid rgba(197,160,89,0.1)', paddingTop: '2rem' }}>
                         <p style={{ color: 'var(--gold-static)', fontSize: '0.8rem', letterSpacing: '2px' }}>Reception</p>
-                        <p style={{ color: '#fff', fontSize: '0.9rem' }}>August 24th, 2026 | 04:00 PM</p>
+                        <p style={{ color: '#fff', fontSize: '0.9rem' }}>April 18th, 2026 | 04:00 PM</p>
                     </div>
                 </motion.div>
             </div>

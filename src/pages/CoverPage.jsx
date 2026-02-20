@@ -22,8 +22,8 @@ const CoverPage = () => {
                         </div>
                     </div>
 
-                    <h1 className="gold-text">Jo & Anisha</h1>
-                    <p style={{ marginTop: '1.5rem', letterSpacing: '6px' }}>August 24th, 2026</p>
+                    <h1 className="gold-text">Joel & Anisha</h1>
+                    <p style={{ marginTop: '1.5rem', letterSpacing: '6px' }}>April 18th, 2026</p>
 
                     <button className="btn-premium" onClick={() => document.getElementById('details').scrollIntoView({ behavior: 'smooth' })}>
                         View Invitation

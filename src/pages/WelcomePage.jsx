@@ -39,7 +39,7 @@ const WelcomePage = () => {
                     </div>
 
                     <div style={{ padding: '2rem', border: '1px solid rgba(197,160,89,0.1)' }}>
-                        <p style={{ color: 'var(--gold-static)', letterSpacing: '2px', margin: 0 }}>With Love, Jo & Anisha</p>
+                        <p style={{ color: 'var(--gold-static)', letterSpacing: '2px', margin: 0 }}>With Love, Joel & Anisha</p>
                     </div>
                 </motion.div>
             </div>
