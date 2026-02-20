@@ -19,7 +19,7 @@ const WeddingDetails = () => {
 
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px', margin: '2rem 0' }}>
                         <div>
-                            <h2 className="gold-text" style={{ fontSize: '1.8rem' }}>Muhoortham</h2>
+                            <h2 className="gold-text" style={{ fontSize: '1.8rem' }}>Wedding</h2>
                             <div style={{ margin: '1rem 0', borderTop: '1px solid rgba(197,160,89,0.2)', borderBottom: '1px solid rgba(197,160,89,0.2)', padding: '1rem 0' }}>
                                 <p style={{ color: '#fff', fontSize: '1rem', marginBottom: '0.5rem' }}>April 18th, 2026</p>
                                 <p style={{ color: '#fff', fontSize: '0.8rem', letterSpacing: '2px' }}>At 10:30 AM</p>
