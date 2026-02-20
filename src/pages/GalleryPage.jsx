@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import ImageWithLoading from '../components/ImageWithLoading';
 
 const GalleryPage = () => {
     const navigate = useNavigate();
@@ -48,10 +49,10 @@ const GalleryPage = () => {
                             style={{ margin: 0, height: '350px' }}
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
-                            transition={{ delay: index * 0.1 }}
+                            transition={{ delay: index * 0.05 }}
                         >
                             <div className="photo-container">
-                                <img src={img} alt={`Gallery ${index}`} />
+                                <ImageWithLoading src={img} alt={`Gallery ${index}`} />
                             </div>
                         </motion.div>
                     ))}

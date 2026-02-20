@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import ImageWithLoading from '../components/ImageWithLoading';
 
 const GroomPage = () => {
     return (
@@ -21,7 +22,7 @@ const GroomPage = () => {
 
                     <div className="geometric-frame">
                         <div className="photo-container">
-                            <img src="/images/IMG_2711.JPG.jpeg" alt="Groom" />
+                            <ImageWithLoading src="/images/IMG_2711.JPG.jpeg" alt="Groom" />
                         </div>
                     </div>
 

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import ImageWithLoading from '../components/ImageWithLoading';
 
 const WelcomePage = () => {
     const navigate = useNavigate();
@@ -22,7 +23,7 @@ const WelcomePage = () => {
 
                     <div className="geometric-frame" style={{ maxWidth: '300px' }}>
                         <div className="photo-container">
-                            <img src="/images/IMG_2739.JPG.jpeg" alt="Couple" />
+                            <ImageWithLoading src="/images/IMG_2739.JPG.jpeg" alt="Couple" />
                         </div>
                     </div>
 
