@@ -36,17 +36,6 @@ const BridePage = () => {
                         </p>
                     </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginTop: '2rem', borderTop: '1px solid rgba(197,160,89,0.1)', paddingTop: '2rem' }}>
-                        <div>
-                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)' }}>Interests</p>
-                            <p style={{ fontSize: '0.9rem', color: '#fff', textTransform: 'none' }}>Design, Painting, Nature</p>
-                        </div>
-                        <div>
-                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)' }}>Origin</p>
-                            <p style={{ fontSize: '0.9rem', color: '#fff', textTransform: 'none' }}>Kerala, India</p>
-                        </div>
-                    </div>
-
                     <div style={{ marginTop: '2rem', borderTop: '1px solid rgba(197,160,89,0.1)', paddingTop: '2rem' }}>
                         <p style={{ color: 'var(--gold-static)', fontSize: '0.8rem', letterSpacing: '2px' }}>Reception</p>
                         <p style={{ color: '#fff', fontSize: '0.9rem' }}>April 18th, 2026 | 04:00 PM</p>

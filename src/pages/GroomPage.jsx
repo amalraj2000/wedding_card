@@ -32,20 +32,10 @@ const GroomPage = () => {
                             kallarikattukunnel (H), Chethicode, Ernakulam
                         </p>
                         <p style={{ color: '#fff', fontSize: '1rem', textTransform: 'none', letterSpacing: '1px', lineHeight: '1.6' }}>
-                            A dedicated professional with an eye for detail and a heart full of dreams. Joel balances his career with a deep love for travel, music, and the simple joys of life.
+                           Joel balances his career with a deep love and finds a simple joys of life as success
                         </p>
                     </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginTop: '2rem', borderTop: '1px solid rgba(197,160,89,0.1)', paddingTop: '2rem' }}>
-                        <div>
-                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)' }}>Interests</p>
-                            <p style={{ fontSize: '0.9rem', color: '#fff', textTransform: 'none' }}>Photography, Coding, Coffee</p>
-                        </div>
-                        <div>
-                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)' }}>Origin</p>
-                            <p style={{ fontSize: '0.9rem', color: '#fff', textTransform: 'none' }}>Kerala, India</p>
-                        </div>
-                    </div>
 
                     <div style={{ marginTop: '2rem', borderTop: '1px solid rgba(197,160,89,0.1)', paddingTop: '2rem' }}>
                         <p style={{ color: 'var(--gold-static)', fontSize: '0.8rem', letterSpacing: '2px' }}>Reception</p>
