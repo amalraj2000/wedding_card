@@ -10,9 +10,9 @@ const GroomPage = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            style={{ overflowY: 'visible', display: 'block' }}
+            style={{ overflowY: 'visible' }}
         >
-            <div className="overlay" style={{ padding: '60px 20px' }}>
+            <div className="overlay">
                 <motion.div
                     className="content-fade-in"
                     style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto' }}
@@ -32,7 +32,7 @@ const GroomPage = () => {
                             kallarikattukunnel (H), Chethicode, Ernakulam
                         </p>
                         <p style={{ color: '#fff', fontSize: '1rem', textTransform: 'none', letterSpacing: '1px', lineHeight: '1.6' }}>
-                           Joel balances his career with a deep love and finds a simple joys of life as success
+                            Joel balances his career with a deep love and finds a simple joys of life as success
                         </p>
                     </div>
 

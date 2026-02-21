@@ -10,9 +10,9 @@ const BridePage = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            style={{ overflowY: 'visible', display: 'block' }}
+            style={{ overflowY: 'visible' }}
         >
-            <div className="overlay" style={{ padding: '60px 20px' }}>
+            <div className="overlay">
                 <motion.div
                     className="content-fade-in"
                     style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto' }}
