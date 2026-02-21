@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import ImageWithLoading from '../components/ImageWithLoading';
 
+
 const GroomPage = () => {
     return (
         <motion.div
