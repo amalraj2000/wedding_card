@@ -29,7 +29,7 @@ const WeddingDetails = () => {
                             <h2 className="gold-text" style={{ fontSize: '1.8rem' }}>Reception</h2>
                             <div style={{ margin: '1rem 0', borderTop: '1px solid rgba(197,160,89,0.2)', borderBottom: '1px solid rgba(197,160,89,0.2)', padding: '1rem 0' }}>
                                 <p style={{ color: '#fff', fontSize: '1rem', marginBottom: '0.5rem' }}>April 18th, 2026</p>
-                                <p style={{ color: '#fff', fontSize: '0.8rem', letterSpacing: '2px' }}>04:00 PM Onwards</p>
+                                <p style={{ color: '#fff', fontSize: '0.8rem', letterSpacing: '2px' }}>12:30 PM Onwards</p>
                             </div>
                         </div>
                     </div>
@@ -50,6 +50,21 @@ const WeddingDetails = () => {
                             <a href="https://www.google.com/maps/search/?api=1&query=St.+George+Church+Parish+Hall+Arakkunnam" target="_blank" rel="noopener noreferrer" className="btn-premium" style={{ textDecoration: 'none', display: 'inline-block', fontSize: '0.7rem', padding: '8px 15px' }}>
                                 View Reception Location
                             </a>
+                        </div>
+                    </div>
+
+                        <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                        <div>
+                            <h2 style={{ fontFamily: 'var(--serif-font)', color: '#fff', fontSize: '1.2rem', margin: '0.5rem 0' }}>Groom's Madhuramvepp</h2>
+                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Groom's Recidence </p>
+                            <p style={{ color: '#fff', opacity: 0.8, fontSize: '0.9rem', marginBottom: '1rem' }}>April 15th - 7pm onwards </p>
+                           
+                        </div>
+                        <div style={{ marginTop: '1rem' }}>
+                            <h2 style={{ fontFamily: 'var(--serif-font)', color: '#fff', fontSize: '1.2rem', margin: '0.5rem 0' }}>Bride's Madhuramvepp</h2>
+                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Bride's Recidence</p>
+                            <p style={{ color: '#fff', opacity: 0.8, fontSize: '0.9rem', marginBottom: '1rem' }}>April 16th - 7pm onwards</p>
+                           
                         </div>
                     </div>
 

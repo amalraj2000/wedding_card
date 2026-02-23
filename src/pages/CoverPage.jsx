@@ -19,7 +19,7 @@ const CoverPage = () => {
 
                     <div className="geometric-frame">
                         <div className="photo-container">
-                            <ImageWithLoading src="/images/IMG_2712.JPG.jpeg" alt="" />
+                            <ImageWithLoading src="/images/cover.jpeg" alt="" />
                         </div>
                     </div>
 

@@ -13,7 +13,7 @@ const GalleryPage = () => {
         "/images/IMG_2723.JPG.jpeg",
         "/images/IMG_2728.JPG.jpeg",
         "/images/IMG_2739.JPG.jpeg",
-        "/images/IMG_2741.JPG.jpeg"
+        "/images/cover.jpeg"
     ];
 
     return (

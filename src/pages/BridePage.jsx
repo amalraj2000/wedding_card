@@ -22,7 +22,7 @@ const BridePage = () => {
 
                     <div className="geometric-frame">
                         <div className="photo-container">
-                            <ImageWithLoading src="/images/IMG_2705.JPG.jpeg" alt="Bride" />
+                            <ImageWithLoading src="/images/bride.JPG.jpeg" alt="Bride" />
                         </div>
                     </div>
 
@@ -36,10 +36,7 @@ const BridePage = () => {
                         </p>
                     </div>
 
-                    <div style={{ marginTop: '2rem', borderTop: '1px solid rgba(197,160,89,0.1)', paddingTop: '2rem' }}>
-                        <p style={{ color: 'var(--gold-static)', fontSize: '0.8rem', letterSpacing: '2px' }}>Reception</p>
-                        <p style={{ color: '#fff', fontSize: '0.9rem' }}>April 18th, 2026 | 04:00 PM</p>
-                    </div>
+                
                 </motion.div>
             </div>
         </motion.div>
