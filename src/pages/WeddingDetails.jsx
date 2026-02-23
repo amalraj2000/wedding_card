@@ -39,7 +39,7 @@ const WeddingDetails = () => {
                             <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>WEDDING VENUE</p>
                             <h2 style={{ fontFamily: 'var(--serif-font)', color: '#fff', fontSize: '1.2rem', margin: '0.5rem 0' }}>St. George Jacobite Syrian Church</h2>
                             <p style={{ color: '#fff', opacity: 0.8, fontSize: '0.9rem', marginBottom: '1rem' }}>Kunnapilly</p>
-                            <a href="https://www.google.com/maps/search/?api=1&query=9.87769880460515,76.41152863359349" target="_blank" rel="noopener noreferrer" className="btn-premium" style={{ textDecoration: 'none', display: 'inline-block', fontSize: '0.7rem', padding: '8px 15px' }}>
+                            <a href="https://www.google.com/maps/search/?api=1&query=9.88018156776425, 76.41361529619579" target="_blank" rel="noopener noreferrer" className="btn-premium" style={{ textDecoration: 'none', display: 'inline-block', fontSize: '0.7rem', padding: '8px 15px' }}>
                                 View Wedding Location
                             </a>
                         </div>
