@@ -59,17 +59,14 @@ const WeddingDetails = () => {
                             <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Groom's Recidence </p>
                             <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Kallarikattu kunnel (H), Chethicode Kanjiramattom, Ernakulam</p>
                             <p style={{ color: '#fff', opacity: 0.8, fontSize: '0.9rem', marginBottom: '1rem' }}>April 15th - 7pm onwards </p>
-                           
                         </div>
                         <div style={{ marginTop: '1rem' }}>
                             <h2 style={{ fontFamily: 'var(--serif-font)', color: '#fff', fontSize: '1.2rem', margin: '0.5rem 0' }}>Bride's Madhuramvepp</h2>
                             <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Bride's Recidence</p>
                             <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Kuzhimalayil (H), Raniya Nivas, Nadakkavu, Ernakulam</p>
                             <p style={{ color: '#fff', opacity: 0.8, fontSize: '0.9rem', marginBottom: '1rem' }}>April 16th - 7pm onwards</p>
-                           
                         </div>
                     </div>
-
 
                     <div style={{ marginTop: '3rem', fontSize: '0.8rem', opacity: 0.7, color: 'var(--gold-static)' }}>
                         <p>Join us as we begin our forever</p>
