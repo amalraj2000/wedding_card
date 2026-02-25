@@ -56,13 +56,13 @@ const WeddingDetails = () => {
                         <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '20px' }}>
                         <div>
                             <h2 style={{ fontFamily: 'var(--serif-font)', color: '#fff', fontSize: '1.2rem', margin: '0.5rem 0' }}>Groom's Madhuramvepp</h2>
-                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Groom's Recidence </p>
+                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Groom's Residence </p>
                             <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Kallarikattu kunnel (H), Chethicode Kanjiramattom, Ernakulam</p>
                             <p style={{ color: '#fff', opacity: 0.8, fontSize: '0.9rem', marginBottom: '1rem' }}>April 15th - 7pm onwards </p>
                         </div>
                         <div style={{ marginTop: '1rem' }}>
                             <h2 style={{ fontFamily: 'var(--serif-font)', color: '#fff', fontSize: '1.2rem', margin: '0.5rem 0' }}>Bride's Madhuramvepp</h2>
-                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Bride's Recidence</p>
+                            <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Bride's Residence</p>
                             <p style={{ fontSize: '0.7rem', color: 'var(--gold-static)', letterSpacing: '2px' }}>Kuzhimalayil (H), Raniya Nivas, Nadakkavu, Ernakulam</p>
                             <p style={{ color: '#fff', opacity: 0.8, fontSize: '0.9rem', marginBottom: '1rem' }}>April 16th - 7pm onwards</p>
                         </div>

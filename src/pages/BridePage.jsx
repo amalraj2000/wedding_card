@@ -28,9 +28,9 @@ const BridePage = () => {
 
                     <div style={{ margin: '2rem 0' }}>
                         <h3 style={{ color: 'var(--gold-static)', fontFamily: 'var(--serif-font)', marginBottom: '0.5rem' }}>D/o Sabu K.A & Priya Sabu</h3>
-                        <p style={{ color: 'rgba(197,160,89,0.8)', fontSize: '0.8rem', marginBottom: '1.5rem', fontFamily: 'var(--serif-font)' }}>
+                        {/* <p style={{ color: 'rgba(197,160,89,0.8)', fontSize: '0.8rem', marginBottom: '1.5rem', fontFamily: 'var(--serif-font)' }}>
                             Kuzhimalayil (H), Nadakavu, Ernakulam
-                        </p>
+                        </p> */}
                         <p style={{ color: '#fff', fontSize: '1rem', textTransform: 'none', letterSpacing: '1px', lineHeight: '1.6' }}>
                             A creative soul who finds inspiration in the beauty of nature and art. Anisha's grace and kindness light up every room, and she is eager to start this new chapter of love and companionship.
                         </p>
